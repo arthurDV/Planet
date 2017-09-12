@@ -16,6 +16,27 @@
     <link rel="stylesheet" media="all" href="/assets/application-2640b8edba7c8421dd4488b5bb1c4fa0f6d341968dc7f98a7c8ed6c16cdb4bcb.css" />
   </head>
   <body>
+    <script>
+
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId: "534768046912528",
+            xfbml: true,
+            version: "v2.6"
+          });
+
+        };
+
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) { return; }
+           js = d.createElement(s); js.id = id;
+           js.src = "//connect.facebook.net/en_US/sdk.js";
+           fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+      </script>
+
     <div class="navbar-wagon">
   <!-- Logo -->
     <a href="/" class="navbar-wagon-brand">
@@ -57,8 +78,8 @@
 
 <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url;">
   <div class="bannercontent">
-    <h1>L'email pour rester à la pointe.</h1>
-    <p>Planet explique et résume les révolutions dont vous <br> entendez parler mais que vous n'avez pas le temps de creuser. </p>
+    <h1>Restez à la pointe.</h1>
+    <p>Planet explique et résume les news Tech & Business <br> que vous n'avez pas le temps de creuser. </p>
       <!-- Begin MailChimp Signup Form -->
       <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
       <style type="text/css">
@@ -77,6 +98,13 @@
     </div>
   </form>
   <div>
+    <div class="fb-send-to-messenger"
+        messenger_app_id="534768046912528"
+        page_id="1828148114098161"
+        data-ref="PASS_THROUGH_PARAM"
+        color="blue"
+        size="large">
+      </div>    
   <p id="jerome">   Planet s'engage à ne jamais utiliser votre email à des fins promotionnelles. <br> Gratuit, sans engagement.</br> </p>
 
     </div>
